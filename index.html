@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moodswings | Every Mood, Mastered in Majesty</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- CINEMATIC LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-line"></div>
+    <h1 class="loader-title">MOODSWINGS</h1>
+    <div class="loader-line"></div>
+    <p class="loader-sub">Kyoto · Est. 2026</p>
+  </div>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
+
+<!-- GOLD PARTICLES -->
+<canvas id="particles"></canvas>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">MS</div>
+  <ul class="nav-links">
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#spirits">Spirits</a></li>
+    <li><a href="#reservations">Reserve</a></li>
+  </ul>
+  <div class="nav-line"></div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-bg-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal-char">— Kyoto, Japan —</p>
+    <h1 id="liquidTitle">
+      <span class="char-wrap" data-char="M">M</span><span class="char-wrap" data-char="O">O</span><span class="char-wrap" data-char="O">O</span><span class="char-wrap" data-char="D">D</span><span class="char-wrap" data-char="S">S</span><span class="char-wrap" data-char="W">W</span><span class="char-wrap" data-char="I">I</span><span class="char-wrap" data-char="N">N</span><span class="char-wrap" data-char="G">G</span><span class="char-wrap" data-char="S">S</span>
+    </h1>
+    <p class="hero-tagline reveal delay">Every Mood, <em>Mastered in Majesty.</em></p>
+    <a href="#reservations" class="btn reveal delay2">
+      <span>Reserve Your Throne</span>
+      <svg class="btn-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- MARQUEE STRIP -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Rare Spirits</span><span class="dot">✦</span>
+    <span>Craft Cocktails</span><span class="dot">✦</span>
+    <span>Kyoto Nights</span><span class="dot">✦</span>
+    <span>Sovereign Luxury</span><span class="dot">✦</span>
+    <span>Rare Spirits</span><span class="dot">✦</span>
+    <span>Craft Cocktails</span><span class="dot">✦</span>
+    <span>Kyoto Nights</span><span class="dot">✦</span>
+    <span>Sovereign Luxury</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- EXPERIENCE SECTION -->
+<section class="section" id="experience">
+  <div class="section-number reveal">01</div>
+  <div class="glass reveal" style="margin-top: 0">
+    <div class="glass-inner">
+      <div class="glass-text">
+        <span class="section-label">The Royal Experience</span>
+        <h2>Where Tradition<br><em>Meets the Night</em></h2>
+        <p>
+          Craft spirits, culinary mastery, and immersive luxury ambiance unite under one sovereign roof. Each evening is a ceremony. Each guest, royalty.
+        </p>
+        <a href="#" class="link-arrow">Explore the venue <span>→</span></a>
+      </div>
+      <div class="glass-visual">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="stat-stack">
+          <div class="stat reveal delay">
+            <span class="stat-num">180+</span>
+            <span class="stat-label">Rare Bottles</span>
+          </div>
+          <div class="stat reveal delay2">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Master Mixologists</span>
+          </div>
+          <div class="stat reveal delay3">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Moods Served</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPIRITS SECTION -->
+<section class="section" id="spirits">
+  <div class="section-number reveal">02</div>
+  <div class="spirits-grid reveal">
+    <div class="spirit-card">
+      <div class="spirit-icon">◈</div>
+      <h3>Sovereign Whiskeys</h3>
+      <p>Single-malts aged in Kyoto cedar. Smoke, amber, and eternity.</p>
+    </div>
+    <div class="spirit-card">
+      <div class="spirit-icon">◇</div>
+      <h3>Signature Cocktails</h3>
+      <p>Each pour: a coronation in crystal. Artisanal mastery, liquid poetry.</p>
+    </div>
+    <div class="spirit-card">
+      <div class="spirit-icon">◉</div>
+      <h3>Rare Vintages</h3>
+      <p>Curated cellars. Bottles with lifetimes behind them, ready for yours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVATIONS SECTION -->
+<section class="section" id="reservations">
+  <div class="section-number reveal">03</div>
+  <div class="reserve-block reveal">
+    <p class="section-label">The Invitation</p>
+    <h2>Claim Your Evening</h2>
+    <p class="reserve-sub">Private booths, curated menus, and an atmosphere sculpted for you.</p>
+    <a href="reservations.html" class="btn btn-large">
+      <span>Reserve Your Throne</span>
+      <svg class="btn-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">MOODSWINGS</div>
+    <div class="footer-divider">✦</div>
+    <p class="footer-address">Gion District · Kyoto, Japan</p>
+    <p class="footer-copy">© 2026 Moodswings. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
